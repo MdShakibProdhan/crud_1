@@ -13,8 +13,6 @@ app.use('/api', require("./routes/index"))
 
 
 
-
-
 // listen
 app.listen(port, () => {
     console.log("port is: ", port);
